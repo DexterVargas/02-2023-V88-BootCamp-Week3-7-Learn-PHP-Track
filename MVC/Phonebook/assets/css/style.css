@@ -1,0 +1,133 @@
+*{
+    font-family: Calibri, sans-serif;
+}
+form{
+    width: 500px;
+    height: auto;
+	border-left: 5px solid rgb(87, 151, 236);
+	padding: 20px;
+}
+label, input,select{
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 5px;
+    font-size: 1.5em;
+}
+label{
+    width: 40%;
+}
+input{
+    width: 55%;
+}
+input[type='submit']{
+	margin-top: 30px;
+    width: 20%;
+}
+table,th,td{
+	border-collapse: collapse;
+    font-size: 1.2em;
+}
+td{
+	border-left: 1px solid rgb(87, 151, 236);
+	padding: 5px;
+}
+table{
+	width: 930px;
+	border: 2px solid rgb(87, 151, 236);
+    text-align: center;
+}
+th,h1{
+	text-align: center;
+	color: #FFFF;
+	font-size: 1.5em;
+	height: 30px;
+	border: 2px solid rgb(87, 151, 236);
+	background-color: rgb(53, 132, 236);
+	padding: 10px 20px;
+}
+tr.colored{
+	background-color: rgba(220, 230, 245, 0.7);
+}
+tr.default{
+	background-color: rgb(255, 255, 255);
+}
+tr:hover{
+	background-color: rgba(245, 235, 220, 0.7);
+}
+a{
+	margin: 5px;
+}
+a:hover{
+    color: cadetblue;
+	margin: 5px;
+    text-decoration: none;
+}
+p{
+    font-size: 1.5em;
+    text-align: center;
+}
+input[type='submit']{
+	border: none;
+	background-color: rgba(87, 151, 236,.7);
+	color: #ffff;
+	border-radius: 5px;
+	transition-duration: 0.5s;
+    padding: 5px 20px;
+}
+input[type='submit']:hover{
+	background-color: rgb(5, 104, 233);
+	font-weight: bold;
+}
+
+label#error{
+	display: block;
+	width: 50%;
+	font-size: .8em;
+	color: tomato;
+	text-align: left;
+}
+#remove-form{
+	display: inline-block;
+	height: auto;
+	width: auto;
+	margin: 0px;
+	padding: 0px;
+	border: none;
+
+}
+#remove-btn{
+	height: auto;
+	width: auto;
+	margin: 0px;
+	padding: 5px 15px;
+	font-size: 1em;
+}
+.actions, h1{
+	text-align: left;
+}
+h1{
+	font-size: 2em;
+	padding: 15px;
+}
+#show-name, #show-contact_number{
+	border-style:ridge;
+	font-weight: bold;
+	border: none;
+	background-color: #ffff;
+	margin: 10px 0px;
+}
+.title{
+	width: 900px;
+}
+#name, #contact_number{
+	display: block;
+	margin: 10px 0px;
+	padding: 5px;
+}
+.success-delete{
+	color:rgb(0, 202, 202);
+}
+.success-create{
+	color:rgb(0, 187, 0);
+}

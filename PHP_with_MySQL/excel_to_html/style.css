@@ -1,0 +1,59 @@
+*{
+	font-family:Calibri, sans-serif;
+}
+.success-msg{
+	color: seagreen;
+	padding: 20px;
+	border: 1px solid gray;
+}
+.error-msg{
+	color: tomato;
+	padding: 20px;
+	border: 1px solid gray;
+}
+.btn-list{
+	text-decoration: underline;
+	font-size: 1.2em;
+	border: none;
+	padding: 5px;
+	background-color: #fff;
+	color: cornflowerblue;
+	transition-duration: 0.3s;
+}
+.btn-list:hover{
+	text-decoration: none;
+	font-size: 1.3em;
+	color:darkcyan;
+}
+table,th,td{
+	border-collapse: collapse;
+}
+td{
+	border-left: 1px solid;
+	border-color: rgb(196, 195, 195);
+}
+table{
+	border: 2px solid rgb(87, 151, 236);
+}
+th{
+	text-align: center;
+	color: #FFFF;
+	font-size: 1.5em;
+	height: 50px;
+	border: 2px solid rgb(87, 151, 236);
+	background-color: rgb(53, 132, 236);
+	padding: 10px 20px;
+}
+tr.colored{
+	border: 1px solid rgb(87, 151, 236);
+	background-color: rgb(197, 218, 247);
+}
+tr.default{
+	background-color: rgb(255, 255, 255);
+}
+a{
+	margin: 5px;
+}
+tr:hover{
+	background-color: cornflowerblue;
+}

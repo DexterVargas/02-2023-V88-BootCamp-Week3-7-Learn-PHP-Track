@@ -1,0 +1,21 @@
+body{
+    font-family:Tahoma, sans-serif;
+}
+	form{
+		border: 1px solid gray;
+		padding: 0px 30px 20px 30px;
+		width: 300px;
+		border-radius: 20px;
+		margin: 0 auto;
+	}
+		h1{
+			text-align: center;
+		}
+		input[type=submit]{
+			margin-left: 250px;
+		}
+		label{
+			display: inline-block;
+			width: 180px;
+			color: rgb(82, 82, 82);
+		}

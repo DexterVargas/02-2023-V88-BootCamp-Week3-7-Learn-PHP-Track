@@ -1,0 +1,6 @@
+Failed to connect to MySQL: (2002) php_network_getaddresses: getaddrinfo failed: No such host is known. 
+
+Can't connect to [local] MySQL server. This error (2002) Can't connect to ... normally means that there is no MySQL server running on the system. Did not specify a host name or use the local host name localhost. 
+
+
+Please check that there is a MySQL server running, that it has network connections enabled and you are using the hostname of the server. ex. localhost.

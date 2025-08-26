@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: rgba(197, 193, 193, 0.5);
+}
+
+/* $primary: #79C7C5;
+$secondary: #A1E2D9;
+$white: #F9FBFF;
+$dark: #777777; */
+
+html{
+    color: #79C7C5;
+    color: #A1E2D9;
+    color: #F9FBFF;
+    color: #777777;
+}
+.chat-box{
+    width: 620px;
+    height: auto;
+    min-height: 800px;
+    max-height: 1050px;
+    overflow: scroll;
+    background-color: #c1e5e0;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin: 0 auto;
+}
+h1{
+    margin: 0px;
+    padding: 0px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: #F9FBFF;
+    font-size: 3em;
+    padding: 20px;
+}
+.my-chat, .simi-chat{
+    display: inline-block;
+    width: 40%;
+    height: 70%;
+    border-radius: 30px;
+    box-shadow: -5px 5px 10px rgba(#777777, .5);
+    margin: 10px;
+    vertical-align: middle;
+    padding: 5px 20px 5px 5px;
+    color: #F9FBFF;
+    font-size: 1.2em;
+}
+.simi-chat{
+    background-color: #79C7C5;
+}
+
+.my-chat{
+    position: relative;
+    margin-left: 54%;
+    background-color: #777777;
+
+}
+.my-chat p{
+    width: 75%;
+}
+
+img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.right{
+    position: absolute;
+    right: 10px;
+}
+
+img, p{
+    display: inline-block;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+form{
+    height: 100px;
+    background-color: #F9FBFF;
+    margin: 0 auto;
+    width: 620px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+input{
+    font-size: 1.2em;
+    padding: 5px;
+    margin: 10px;
+    margin-top: 30px;
+}
+input[type='text']{
+    width: 80%;
+}

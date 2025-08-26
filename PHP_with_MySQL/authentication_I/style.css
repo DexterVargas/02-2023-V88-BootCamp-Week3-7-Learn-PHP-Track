@@ -1,0 +1,102 @@
+*{
+	font-family: Calibri, sans-serif;
+}
+body{
+background-color:#cbcccd;
+}
+.main-container{
+	width: 900px;
+	padding: 30px;
+	background-color: #f0f2f5;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+.container{
+	display: inline-block;
+	box-sizing: border-box;
+	vertical-align: top;
+	border: 1px solid gray;
+	border-radius: 10px;
+	width: 400px;
+	height: 350px;
+	padding: 20px;
+	background-color: #fff;
+}
+.login-container{
+	height: auto;
+}
+.signup-container{
+	height: auto;
+}
+.login-container-pair{
+	box-sizing: border-box;
+	display: inline-block;
+	width: 450px;
+	padding: 15px;
+}
+h1{
+	font-size: 3em;
+}
+.app-title{
+	color: #1877f2;
+	font-size: 5em;
+	margin-top: 20px;
+}
+.user-title{
+	color:  #42b72a;
+	font-size: 7em;
+}
+form{
+	box-sizing: border-box;
+	width: 100%;
+}
+input{
+	display: block;
+	width: 94%;
+	padding: 10px;
+	margin: 10px 0px;
+	font-size: 1.5em;
+	border: 1px solid rgb(186, 185, 185);
+	border-radius: 5px;
+}
+.login, .create{
+	background-color: #1877f2;
+	color: #fff;
+	width: 100%;
+}
+.create{
+	background-color: #42b72a;
+}
+.error{
+	color: tomato;
+	font-size: .8em;
+}
+.success{
+	color:#42b72a;
+	font-size: 1.5em;
+}
+.user-name{
+	display: inline-block;
+	width: 40%;
+	margin-right: 12px;
+}
+.btn-link{
+	display: inline;
+	background-color: #fff;
+	padding: 0px;
+	border: none;
+	margin: 0px;
+	width: auto;
+	font-size: 1em;
+	text-decoration: underline;
+}
+.btn-link:hover{
+	color: #1877f2;
+}
+.forgot{
+	display: block;
+	width: 100%;
+	text-align: center;
+	padding: 15px 0px;
+	border-bottom: 1px solid rgb(186, 185, 185);
+}

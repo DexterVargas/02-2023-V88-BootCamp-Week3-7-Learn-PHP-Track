@@ -1,0 +1,49 @@
+.pokemons{
+    box-sizing: border-box;
+    width: 90vw;
+    height: auto;
+    border: 2px solid cornsilk;
+    border-radius: 20px;
+    background-color: aliceblue;
+    margin: 0 auto;
+    text-align: center;
+}
+.img-container{
+    box-sizing: border-box;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    border: 1px solid goldenrod;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+    vertical-align: top;
+}
+p,h2{
+    margin: 0px;
+    padding: 5px;
+}
+
+.modal{
+    padding: 30px;
+    border: 1px solid goldenrod;
+    border-radius: 20px;
+    background: green;
+}
+.modal label{
+    display: inline-block;
+    padding: 5px;
+    color: #fff;
+    background-color: red;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+h1{
+    text-align: center;
+}
+
+.modal::backdrop{
+    background: rgba(255, 0, 0, 0.25);
+}

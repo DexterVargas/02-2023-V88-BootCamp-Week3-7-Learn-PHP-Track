@@ -1,0 +1,30 @@
+#kittens{
+    box-sizing: border-box;
+    width: 90vw;
+    height: auto;
+    border: 2px solid cornsilk;
+    border-radius: 20px;
+    background-color: aliceblue;
+    margin: 0 auto;
+}
+.img-container{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 230px;
+    height: 250px;
+    padding: 10px;
+    border: 1px solid goldenrod;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+    vertical-align: top;
+}
+img{
+    display: inline;
+    height: 90%;
+    width: 100%;
+}
+p{
+    margin: 0px;
+    padding: 0px;
+}

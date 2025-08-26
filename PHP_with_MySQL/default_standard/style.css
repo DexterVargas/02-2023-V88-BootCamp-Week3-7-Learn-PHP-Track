@@ -1,0 +1,155 @@
+*{
+	font-family: Calibri, sans-serif;
+}
+body{
+background-color:#cbcccd;
+}
+.main-container{
+	padding: 30px;
+	background-color: #f0f2f5;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+.blog-main-container{
+	width: 80vw;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 100px;
+	background-color: #f0f2f5;
+	padding: 30px;
+}
+.container{
+	display: block;
+	margin: 0 auto;
+	box-sizing: border-box;
+	border: 1px solid gray;
+	border-radius: 10px;
+	width: 400px;
+	height: 350px;
+	padding: 20px;
+	background-color: #fff;
+}
+.login-container{
+	height: auto;
+	margin: 0 auto;
+}
+.signup-container{
+	height: auto;
+}
+
+h1,.welcome-user{
+	display: inline-block;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+.welcome-user{
+	width: 70%;
+	text-align: right;
+}
+.line{
+	width: 100%;
+	border-bottom: 5px solid #111;
+}
+form{
+	box-sizing: border-box;
+	width: 100%;
+}
+input{
+	display: block;
+	width: 94%;
+	padding: 10px;
+	margin: 10px 0px;
+	font-size: 1.5em;
+	border: 1px solid rgb(186, 185, 185);
+	border-radius: 5px;
+
+}
+.login, .create{
+	background-color: #1877f2;
+	color: #fff;
+	width: auto;
+}
+.create,.reply{
+	background-color: #42b72a;
+}
+.error{
+	color: tomato;
+	font-size: .8em;
+}
+.success{
+	color:#42b72a;
+	font-size: 1.5em;
+}
+.user-name{
+	display: inline-block;
+	width: 40%;
+	margin-right: 12px;
+}
+.btn-link{
+	display: inline;
+	background-color: #fff;
+	padding: 0px;
+	border: none;
+	margin: 0px;
+	width: auto;
+	font-size: 1em;
+	text-decoration: underline;
+}
+.btn-link:hover{
+	color: #1877f2;
+}
+textarea{
+	width: 100%;
+	height: 100px;
+	resize: none;
+	background-color: beige;
+}
+.review{
+	height: auto;
+}
+.post,.reply{
+	margin: 0px;
+	padding: 5px;
+	width: auto;
+	font-size: 1em;
+	background-color: #1877f2;
+	color: #fff;
+	margin-left: 90%;
+}
+.post:hover{
+	background-color:cadetblue;
+}
+.reply{
+	background-color: #42b72a;
+	margin-left: 90%;
+}
+.reply:hover{
+	background-color: teal;
+}
+.reply-textarea{
+	width: 80%;
+	background-color: aliceblue;
+	height: 10%;
+	margin-left: 150px;
+}
+.review-context, .review-title{
+	margin: 5px;
+}
+.review-context{
+	margin-bottom: 15px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #1877f2;
+}
+.comment-context, .comment-title{
+	margin: 5px;
+	width: 80%;
+	color:rgb(137, 137, 137);
+	font-style: italic;
+	margin-left: 150px;
+}
+.comment-context{
+	margin-bottom: 15px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #1877f2;
+}

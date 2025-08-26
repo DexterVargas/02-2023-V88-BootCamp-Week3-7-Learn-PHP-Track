@@ -1,0 +1,71 @@
+*{
+	font-family: Calibri, sans-serif;
+}
+body{
+background-color:#e7e9eb;
+}
+.main-container{
+	padding: 30px;
+	background-color: #e7e9eb;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+.container{
+	margin: 0 auto;
+	box-sizing: border-box;
+	border: 1px solid gray;
+	border-radius: 10px;
+	width: 400px;
+	height: auto;
+	padding: 20px;
+	background-color: #fff;
+	
+}
+input[type='text'],input[type='password']{
+	width: 100%;
+	padding: 5px;
+	margin: 5px 0px;
+	font-size: 1.2em;
+	border: 1px solid rgb(186, 185, 185);
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+.btn{
+	border: none;
+	background-color: #04aa6d;
+	/*background-color:#008cba;*/
+	color: #ffff;
+	padding: 5px 32px;
+	display: inline-block;
+	font-size: 1.5em;
+	border-radius: 5px;
+	font-weight: bold;
+	transition-duration: 0.4s;
+	margin: 5px 0px;
+}
+.btn:hover{
+	background-color: #028e5b;
+	color: #ffff;
+}
+.btn-toggle{
+	background-color: #e7e7e7;
+	color: rgb(167, 167, 167);
+	font-size: 1.3em;
+}
+.btn-toggle:hover{
+	background-color:rgb(167, 167, 167);
+}
+.btn-main{
+	width: 100%;
+}
+.error{
+	color: tomato;
+	font-size: .8em;
+}
+.success{
+	color:#42b72a;
+	font-size: 1.5em;
+}
+.login-labels{
+	color: rgb(115, 115, 115);
+}

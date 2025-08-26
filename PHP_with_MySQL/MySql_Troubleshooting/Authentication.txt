@@ -1,0 +1,9 @@
+Troubleshooting Database Error #1045
+
+The #1045 error is a phpMyAdmin authentication error that can be caused by an incorrectly typed username or password.It also possible that the user does not exist. 
+
+This error displays when you try to log in to phpMyAdmin:
+#1045 - Access denied for user '(database user name)'@'(hosting account IP address)'(using password: YES)
+
+To troubleshoot this error, check your password if its correct. 
+if you think you are using the correct password. You should complete a password reset and make sure you're using the correct database host name. 

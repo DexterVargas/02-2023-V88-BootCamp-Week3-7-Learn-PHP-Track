@@ -1,0 +1,32 @@
+body{
+	font-family: Calibri, sans-serif;
+}
+*{
+	text-align: center;
+}
+.btn-claim{
+	margin: 10px 0px;
+	background-color:rgb(6, 162, 24);
+	border-radius: 15px;
+	border-style:outset;
+	color: aliceblue;
+	font-weight: bold;
+	width: 120px;
+	padding: 10px;
+}
+.form-coupon{
+	margin-top: 50px;
+	border: 5px dashed #222;
+	border-radius: 15px;
+	background-color:#ffe599 ;
+}
+.ticket-number{
+	font-size: 2.2em;
+	font-family: Impact,sans-serif;
+	display: block;
+}
+.btn-claim:hover{
+	background-color: #3e8e41;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}

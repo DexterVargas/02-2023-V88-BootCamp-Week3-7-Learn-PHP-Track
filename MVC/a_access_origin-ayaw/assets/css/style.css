@@ -1,0 +1,57 @@
+.main-container{
+    box-sizing: border-box;
+    width: 90vw;
+    height: auto;
+    border: 2px solid aliceblue;
+    border-radius: 20px;
+    background-color: aliceblue;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+.order{
+    display: inline-block;
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #111;
+    background-color: antiquewhite;
+    padding: 20px;
+    text-align: center;
+    vertical-align: top;
+}
+h1,h2{
+    margin: 0px;
+}
+h1{
+    font-size: 3em;
+    height: 30%;
+    background-color:wheat;
+}
+h2{
+    font-size: 2em;
+    height: 65%;
+    background-color: #f6f6f6;
+    padding: 5px;
+}
+form{
+    margin: 0px;
+    background-color:  #f6f6f6;
+    padding: 10px;
+}
+p{
+    display: inline-block;
+    margin: 0px;
+    width: 70%;
+}
+input{
+    font-size: 1.5em;
+    padding: 5px;
+    width: 90%;
+    font-style: italic;
+}
+input[type='submit']{
+    width: 10%;
+    font-weight: bold;
+    font-style: normal;
+}

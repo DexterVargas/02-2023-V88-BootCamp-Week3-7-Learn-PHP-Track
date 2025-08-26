@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: rgba(197, 193, 193, 0.5);
+}
+
+/* $primary: #79C7C5;
+$secondary: #A1E2D9;
+$white: #F9FBFF;
+$dark: #777777; */
+
+
+form{
+    height: auto;
+    background-color: #F9FBFF;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+input{
+    font-size: 1.2em;
+    padding: 5px;
+    margin: 10px;
+    margin-top: 30px;
+}
+input[type='text']{
+    width: 70%;
+}
+#display{
+    text-align: center;
+    padding-top: 50px;
+}
+table,th,td{
+	border-collapse: collapse;
+}
+td{
+	border-left: 1px solid #001233;
+	padding: 5px;
+}
+table{
+    display: inline-block;
+    border: 2px solid #001233;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+}
+th{
+	text-align: center;
+	color: #001233;
+	font-size: 1.5em;
+	height: 30px;
+	border: 2px solid #001233;
+	padding: 10px 20px;
+    border-bottom: 5px solid #FF595A;
+}
+tr.colored{
+	background-color: rgba(220, 230, 245, 0.7);
+}
+tr.default{
+	background-color: rgb(255, 255, 255);
+}
+tr:hover{
+	background-color: rgba(245, 235, 220, 0.9);
+    border-top: 1px solid #FF595A;
+    border-bottom: 1px solid #FF595A;
+}
+label{
+    display: block;
+}
+textarea{
+    width: 100%;
+    height: 550px;
+    resize: none;
+}
+.http-response, .html-analyzer{
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 1.2em;
+    width: 500px;
+    height: auto;
+    text-align: center;
+    vertical-align: top;
+    padding: 10px;
+    margin: 10px;
+}

@@ -1,0 +1,38 @@
+body{
+	text-align: center;
+	font-family: Tahoma, sans-serif;
+}
+.main-container{
+	box-sizing: border-box;
+	padding: 40px;
+	width: 600px;
+	height: 750px;
+	border: 1px solid #333;
+	margin: 0 auto;
+	border-radius: 30px;
+	background-color: azure;
+}
+.labels,.inputs{
+    box-sizing: border-box;
+    padding: 10px;
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+label{
+    display: block;
+    text-align: right;
+    line-height: 2em;
+}
+label, input{
+    margin: 11px;
+    width: 90%;
+}
+.submit{
+    width: 60%;
+    padding: 10px;
+    font-size: 1.2em;
+}
+.error{
+    color: rgb(251, 70, 70);
+}

@@ -1,0 +1,97 @@
+body{
+	font-family: Tahoma, sans-serif;
+}
+.main-container{
+	box-sizing: border-box;
+	padding: 40px;
+	width: 900px;
+	height: 800px;
+	border: 1px solid #333;
+	margin: 0 auto;
+	border-radius: 30px;
+	background-color: azure;
+}
+h1, .reset{
+	display: inline-block;
+}
+h1{
+	width: 80%;
+	text-align: left;
+}
+.form-reset{
+	display: inline-block;
+	width: 20%;
+}
+.reset{
+	width: 100%;
+	height: 40px;
+	border-radius: 20px;
+	font-size: 1em;
+	color: #fff;
+	background-color:crimson;
+	line-height: 40px;
+}
+h2{
+	display: block;
+	text-align: left;
+}
+.low,.bet-box{
+	width: 170px;
+	border: 3px solid rgb(238, 207, 54);
+	height: 150px;
+	background-color:aliceblue;
+	display: inline-block;
+	margin: 10px;
+	text-align: center;
+}
+.mod{
+	background-color:antiquewhite;	
+}
+.high{
+	background-color:lightcoral;	
+}
+.severe{
+	background-color:crimson;	
+}
+.bet{
+	margin: 0 auto;
+	width: 60%;
+	height: 40px;
+	margin-bottom: 15px;
+	border-radius: 20px;
+	font-size: 1em;
+	letter-spacing: 10px;
+	color: #fff;
+	background-color: #3e8e41;
+	display: block;
+}
+.reset:hover, .bet:hover{
+	background-color: darkcyan;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+.game-host{
+	margin: 20px 0px;
+}
+textarea{
+	text-align: left;
+}
+ul{
+	padding: 15px;
+	width: 780px;
+	height: 320px;
+	background-color:rgb(208, 207, 207);
+	text-align: left;
+	overflow: scroll;
+}
+li{
+	margin: 5px;
+	text-align: left;
+	color: green;
+}
+li.decrease{
+	color: crimson;
+}
+li.over{
+	color: rgb(46, 44, 44);
+}

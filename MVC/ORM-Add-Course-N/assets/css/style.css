@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: rgba(197, 193, 193, 0.5);
+}
+h1{
+	margin-top: 50px;
+}
+form{
+    width: 400px;
+    height: 180px;
+}
+label, input,select{
+    display: inline-block;
+    padding: 3px;
+    margin: 3px;
+    margin-bottom: 5px;
+    font-size: 1.2em;
+}
+span{
+	font-size: 1.2em;
+}
+label{
+    width: 35%;
+}
+input,select{
+    width: 55%;
+}
+input[type='submit']{
+    display: block;
+    width: 20%;
+    margin-left: 80%;
+}
+input[type='radio']{
+    width: 10%;
+}
+table,th,td{
+	border-collapse: collapse;
+    font-size: 1em;
+    padding: 10px 50px;
+}
+td{
+	border-left: 1px solid;
+	border-color: rgb(196, 195, 195);
+}
+table{
+	border: 2px solid rgb(87, 151, 236);
+    text-align: center;
+}
+th{
+	text-align: center;
+	color: #FFFF;
+	font-size: 1.2em;
+	height: 30px;
+	border: 2px solid rgb(87, 151, 236);
+	background-color: rgb(53, 132, 236);
+	padding: 10px 20px;
+}
+tr.colored{
+	background-color: rgba(220, 230, 245, 0.7);
+}
+tr.default{
+	background-color: rgb(255, 255, 255);
+}
+tr:hover{
+	background-color: rgba(245, 235, 220, 0.9);
+    border-top: 1px solid #FF595A;
+    border-bottom: 1px solid #FF595A;
+}
+a{
+	margin: 5px;
+}
+a:hover{
+    color: cadetblue;
+	margin: 5px;
+    text-decoration: none;
+}
+p{
+    font-size: 1.2em;
+    text-align: center;
+}
+
+input[type='submit']{
+	border: none;
+	background-color: rgba(87, 151, 236,.7);
+	color: #ffff;
+	border-radius: 5px;
+	transition-duration: 0.4s;
+    padding: 5px 20px;
+}
+input[type='submit']:hover{
+	background-color: rgb(5, 104, 233);
+	font-weight: bold;
+}
+
+label#error{
+	display: block;
+	width: 50%;
+	font-size: .6em;
+	color: tomato;
+	text-align: left;
+}
+form.destroy{
+    display: inline-block;
+    width: 50%;
+}
+form.destroy input[type='submit']{
+    width: auto;
+    margin: 0 auto;
+}
+input.btn-no{
+	background-color:rgba(248, 161, 145,.7);
+	transition-duration: 0.4s;
+}
+input.btn-no:hover{
+	background-color:rgb(250, 15, 62);
+}
+
+input.delete{
+	margin-left: 30%;
+	margin-top: 15px;
+	background-color: #FF595A;
+}

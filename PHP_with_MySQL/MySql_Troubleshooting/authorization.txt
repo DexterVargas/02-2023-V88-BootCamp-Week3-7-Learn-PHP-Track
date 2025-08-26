@@ -1,0 +1,5 @@
+Failed to connect to MySQL: (1049) Unknown database 'localhost'
+
+This MySQL error message means that you try to connect to a database that does not exist.
+
+Either try to connect to an existing MySQL database (for example world or sakila). Or enter the name of database you want to connect into.

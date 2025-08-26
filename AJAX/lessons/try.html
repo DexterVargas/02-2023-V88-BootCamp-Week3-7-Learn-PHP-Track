@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+        <title>Gotta Catch'em All</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<title>Document</title>
+		<script>
+            $(document).ready(function(){
+                // #1. Run get()
+                // #2. Fetch response data from the url 
+                $.get("https://pokeapi.co/api/v2/pokemon/1/", function(res) {   
+					// console.log(res.abilities[0].ability.name);
+   	 				// console.log(res.abilities[1].ability.name);
+					let inner = "";
+					    for(var i = 0; i < res.abilities.length; i++) {
+							//console.log(res.abilities[i].ability.name);
+							inner +='<h2>' + res.abilities[i].ability.name + '</h2>';
+						}
+						document.getElementById('pokemon').innerHTML= inner;
+				
+
+                    //console.log(res);   // #3. Execute codes inside function having the response data
+                }, "json");  //4. Format the final output in JSON.
+            });
+        </script>
+
+	</head>
+	<body>
+		<div id="pokemon">
+        </div>
+	</body>
+</html>

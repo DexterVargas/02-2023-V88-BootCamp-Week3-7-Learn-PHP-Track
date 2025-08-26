@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Pokemon TCG</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <script>
+            $(document).ready(function(){
+                $.get("https://api.pokemontcg.io/v2/cards/", function(res) {  
+                    var html_str = '';      
+                    for(var i = 0; i < res.data.length; i++) {
+                        let getEx = res.data[i];
+                        if (getEx.id.substr(0,4)=='ex11') {
+                            html_str += '<div class="img-container"><img id="'+getEx.id+'" src="'+getEx.images.small+'"></div>';
+                        }
+                    }
+
+                    $(".pokemons").html(html_str);
+                }, "json");  
+
+                $(document).on("click", "img", function () {
+                    $.get('https://api.pokemontcg.io/v2/cards/'+$(this).attr('id'), function(mod) {  
+                        var html_str =' <label class="close">X</label>'+
+                                        '<h2><b>Name:</b>'+ mod.data.name +'</h2>'+
+                                        '<p><b>ID:</b>'+ mod.data.id +'</p>'+
+                                        '<p><b>Type:</b>'+ mod.data.types +'</p>'+
+                                        '<p><b>Hp:</b> '+ mod.data.hp +'</p>'+
+                                        '<p><b>Evolves From:</b>'+ mod.data.evolvesFrom +'</p>'+
+                                        '<img src="'+ mod.data.images.small+'">';
+
+                        $(".modal").html(html_str).show();
+
+                    }, "json");  
+                });
+
+                $(document).on("click", ".modal", function () {
+                    $(".modal").hide();
+                });
+            }); 
+            
+        </script>
+    </head>
+    <body>
+        <dialog class="modal">
+        </dialog>
+        <h1>Pokemon cards with prefix "ex11"</h1>
+        <div class="pokemons">
+            <div class="img-container">
+                <!-- <img id="" src="https://images.pokemontcg.io/pl1/1.png"> -->
+            </div>
+        </div>
+    </body>
+</html>
